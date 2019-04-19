@@ -247,6 +247,8 @@ class BukalapakController extends Controller
 
         return $newData;
     }
+    //contoh
+    // http://localhost:8000/api/bukalapak/seller?path=/u/ypd_putridarwin
     public function seller(Request $request)
     {
         ini_set('max_execution_time', -1);
