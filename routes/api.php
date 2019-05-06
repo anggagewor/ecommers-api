@@ -34,4 +34,19 @@ Route::namespace('Api')->group(function () {
 		Route::get('/product','TokopediaController@product')->name('tokopedia.products.slug');
 		Route::get('/seller','TokopediaController@seller')->name('tokopedia.sellers.slug');
 	});
+
+
+
+	Route::prefix('shopee')->group(function () {
+		Route::get('/search','ShopeeController@search')->name('shopee.search');
+		Route::get('/{item_id}/{shop_id}','ShopeeController@read')->name('shopee.read');
+	});
+    
+    Route::namespace('V1')->prefix('v1')->group(function () {
+    
+    
+        Route::prefix('tokopedia')->group(function () {
+            Route::get('/search','TokopediaController@search')->name('v1.tokopedia.search');
+        });
+    });
 });

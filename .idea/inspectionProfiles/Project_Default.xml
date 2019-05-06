@@ -1,0 +1,17 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="ClassNameCollisionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="DeprecatedDocTagInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="GlobalVariableUsageInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="MethodCanBePrivateInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="MethodShouldBeFinalInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="MethodVisibilityInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="MissingParameterTypeDeclarationInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="MissingReturnTypeInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PropertyAnnotationInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="RedundantDocCommentTagInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="ToStringCallInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="VirtualTypeCheckInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>
